@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+}
+.j-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+.img-fluid {
+  width: 100%;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+.decoration-none {
+  text-decoration: none;
+}
+.align-center {
+  align-items: center;
+}
+
+.header {
+  padding: 10px 0;
+}
+.header .logo {
+  width: 100px;
+}
+.line-vertical {
+  height: 40px;
+  width: 1px;
+  margin: 0 40px;
+  background: #ccc;
+}
+
+.header .menu ul li {
+  padding: 10px;
+}
+.header .menu ul li a {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+}
+.mx-1 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.best-estate{
+    position: relative;
+    height: 100vh;
+}
+.best-estate .estate-text{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 40%;
+    background: #06B6D4;
+    padding: 150px;
+    z-index: 2;
+}
+.best-estate .estate-text h1{
+    position: absolute;
+    width: 110%;
+    color: #fff;
+    top: 20%;
+    font-size: 70px;
+}
+.best-estate .estate-img{
+    position: absolute;
+    right: 80px;
+    width: 65%;
+    top: 0;
+    bottom: 0;
+}
+.find-house{
+    background: #fff;
+    height: 150px;
+    position: absolute;
+    bottom: -50px;
+    width: 80%;
+    left: 50px;
+    border-radius: 90px;
+}
+.find-house .Locationlogo img{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.find-house .location h3{
+    font-size: 24px;
+    margin-left: 90px;
+    margin-top: -60px;
+}
+.find-house .location h5{
+    font-size: 12px;
+    margin-left: 90px;
+    color: #AAB6C6;
+  
+}
+.find-house .homelogo{
+    
+    margin-left: 660px;
+    margin-top: -35px;
+}
+.find-house .home h3{
+  font-size: 24px;
+  margin-left: 710px;
+  margin-top: -50px;
+}
+.find-house .home h5{
+    font-size: 12px;
+    margin-left: 710px;
+    color: #AAB6C6 ;
+}
+.find-house .price img{
+    margin-top: -45px;
+    margin-left: 930px;
+}
+.find-house .dollar h3{
+  font-size: 24px;
+  margin-left: 980px;
+  margin-top: -65px;
+}
+.find-house .dollar h5{
+  font-size: 12px;
+  margin-left: 980px;
+}
+.find-house .searchbutton button{
+  border-radius: 120px;
+  width: 80px;
+  background-color: #0891B2;
+  border-color: #0891B2;
+  margin-left: 1190px;
+  margin-top: -80px;
+}
+.imagespart{
+  height: 150px;
+}
+.imagespart img{
+  width: 19%;
+  margin-top: 240px;
+  padding: 25px;
+  
+}
+.howitwork .headerofhow{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+}
+.howitwork .headerofhow h1{
+  font-size: 50px;
+}
+.howitwork .headerofhow h3{
+  font-size: 30px;
+  color: #BCC3CD;
+}
+.howitwork .photoparts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.howitwork .photoparts .smartsearch h3{
+  margin-left: 115px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 29px;
+}
+
+.howitwork .photoparts .smartsearch img{
+  margin-left: 55px;
+  
+  margin-top: 50px;
+}
+.howitwork .photoparts .smartsearch h5{
+  margin-left: 25px;
+  font-size: 20px;
+  color: #AAB6C6;
+}
+.howitwork .photoparts .chooseproperty img{
+  margin-top: 50px;
+}
+.howitwork .photoparts .chooseproperty h3{
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+
+}
+.howitwork .photoparts .chooseproperty h5{
+  
+  font-size: 20px;
+  color: #AAB6C6;
+
+}
+.howitwork .photoparts .bookyou img{
+  margin-top: 50px;
+}
+.howitwork .photoparts .bookyou h3{
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+
+}
+
+.howitwork .photoparts .bookyou h5{
+  
+  font-size: 20px;
+  color: #AAB6C6;
+
+}
